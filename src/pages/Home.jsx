@@ -1,12 +1,17 @@
 import React from 'react'
-import Header from '../constants/Header'
-import Footer from '../constants/Footer'
+import Hero from '../components/Hero'
+import Excellence from '../components/Excellence'
+import Ecosystem from '../components/Ecosystem'
+import Directors from '../components/Directors'
 
 const Home = () => {
   return (
-    <div>
-        hello
-    </div>
+    <main>
+      <Hero />
+      <Excellence />
+      <Ecosystem />
+      <Directors />
+    </main>
   )
 }
 
