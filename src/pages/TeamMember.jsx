@@ -8,7 +8,7 @@ export default function TeamMember() {
     // 404-like fallback
     if (!member) {
         return (
-            <main className="min-h-screen bg-background-light dark:bg-background-dark flex items-center justify-center">
+            <main className="min-h-screen bg-background-light  flex items-center justify-center">
                 <div className="text-center">
                     <p className="text-gray-500 dark:text-gray-400 text-lg mb-4">
                         Team member not found.
@@ -22,7 +22,7 @@ export default function TeamMember() {
     }
 
     return (
-        <main className="bg-background-light dark:bg-background-dark min-h-screen">
+        <main className="bg-background-light min-h-screen">
             {/* Back nav */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10">
                 <Link

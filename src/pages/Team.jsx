@@ -3,7 +3,7 @@ import { teamMembers } from "../data/team";
 
 export default function Team() {
     return (
-        <main className="bg-background-light dark:bg-background-dark min-h-screen">
+        <main className="bg-background-light  min-h-screen">
             {/* Header */}
             <section className="relative pt-20 pb-16 overflow-hidden">
                 <div className="absolute inset-0 pointer-events-none opacity-20">
